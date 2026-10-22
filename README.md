@@ -23,6 +23,8 @@ This repo is published to GitHub: [Moumita-s-Portfolio](https://github.com/moumi
 4. Confirm build command is `npm run build` (Netlify reads `netlify.toml`).
 5. **Deploy site** (or **Clear cache and deploy site**).
 
+**Automated deploys:** add `NETLIFY_AUTH_TOKEN` and `NETLIFY_SITE_ID` as GitHub Actions secrets — see [docs/netlify-github-secrets.md](docs/netlify-github-secrets.md).
+
 After a successful deploy, [moumitadesigner.com](https://moumitadesigner.com) will serve this Next.js site.
 
 ## Stack
