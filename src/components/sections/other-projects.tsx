@@ -8,11 +8,11 @@ import { FadeIn } from "@/components/ui/fade-in";
 
 export function OtherProjects() {
   return (
-    <Section>
+    <Section id="projects">
       <SectionHeader
         label="More Work"
         title="Other Projects"
-        subtitle="Selected business websites crafted with performance, trust, and elegant design."
+        subtitle="Including Womania by Dola — heritage e-commerce — plus business and studio websites built for performance and trust."
       />
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -12,6 +12,7 @@ export const SITE = {
 export const NAV_LINKS = [
   { label: "About", href: "#about" },
   { label: "Work", href: "#work" },
+  { label: "Projects", href: "#projects" },
   { label: "Services", href: "#services" },
   { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
@@ -248,6 +249,7 @@ export const ACHIEVEMENTS = [
   "Founder of Karao Digital",
   "Technology Partner for Gramodaya",
   "Digital Growth Partner for Kanopy Early Years & Tender Petals",
+  "E-commerce & Brand Experience for Womania by Dola",
   "Successfully Delivered Multiple Business Websites",
   "AI Automation & Business Technology Consultant",
   "Website & Portal Development Specialist",

@@ -39,7 +39,7 @@ export function CallToAction() {
           >
             Let&apos;s Talk
           </Button>
-          <Button href="#work" variant="secondary" size="lg">
+          <Button href="#projects" variant="secondary" size="lg">
             View My Work
           </Button>
         </FadeIn>

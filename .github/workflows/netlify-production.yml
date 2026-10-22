@@ -5,6 +5,9 @@ on:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 concurrency:
   group: netlify-moumitadesigner
   cancel-in-progress: true
@@ -26,9 +29,7 @@ jobs:
         run: npm ci
 
       - name: Build and deploy to Netlify
-        uses: netlify/actions/cli@v5.0.0
-        with:
-          args: deploy --build --prod
+        run: npx netlify-cli@23.1.4 deploy --build --prod
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

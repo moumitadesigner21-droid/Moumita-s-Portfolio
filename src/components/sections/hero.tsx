@@ -50,7 +50,7 @@ export function Hero() {
         </FadeIn>
 
         <FadeIn delay={0.5} className="mt-10 flex flex-wrap gap-4">
-          <Button href="#work" size="lg">
+          <Button href="#projects" size="lg">
             View My Work
           </Button>
           <Button href="#contact" variant="secondary" size="lg">
