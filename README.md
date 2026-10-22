@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Moumita Chowdhury — Founder Portfolio
 
-## Getting Started
+Premium Next.js portfolio for [moumitadesigner.com](https://moumitadesigner.com).
 
-First, run the development server:
+## Develop
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploy (Netlify + custom domain)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This repo is published to GitHub: [Moumita-s-Portfolio](https://github.com/moumitadesigner21-droid/Moumita-s-Portfolio).
 
-## Learn More
+`netlify.toml` configures the [Netlify Next.js runtime](https://docs.netlify.com/frameworks/next-js/overview/).
 
-To learn more about Next.js, take a look at the following resources:
+1. Sign in at [app.netlify.com](https://app.netlify.com) with the account that owns **moumitadesigner.com**.
+2. Open the **moumitadesigner** site → **Site configuration** → **Build & deploy** → **Continuous deployment**.
+3. Connect **GitHub** → repository **`moumitadesigner21-droid/Moumita-s-Portfolio`** → branch **`main`**.
+4. Confirm build command is `npm run build` (Netlify reads `netlify.toml`).
+5. **Deploy site** (or **Clear cache and deploy site**).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+After a successful deploy, [moumitadesigner.com](https://moumitadesigner.com) will serve this Next.js site.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Stack
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js, TypeScript, Tailwind CSS, Framer Motion, next-themes.
